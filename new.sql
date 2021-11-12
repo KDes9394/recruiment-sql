@@ -1,4 +1,4 @@
-CREATE TABLE "Job Seeker" (
+CREATE TABLE "Job_Seeker" (
   "user_id" SERIAL,
   "first_name" VARCHAR(50),
   "last_name" VARCHAR(50),
@@ -14,7 +14,7 @@ CREATE TABLE "Employer" (
   PRIMARY KEY ("company_id")
 );
 
-CREATE TABLE "Open Position" (
+CREATE TABLE "Open_Position" (
   "job_id" SERIAL,
   "position_title" VARCHAR(50),
   "division" VARCHAR(50),
